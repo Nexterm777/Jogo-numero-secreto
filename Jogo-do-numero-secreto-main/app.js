@@ -1,5 +1,5 @@
 let listaNumeroSorteados = [];
-let numeroLimite = 20;
+let numeroLimite = 100;
 let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 
@@ -12,7 +12,7 @@ exibirMensagemInicial();
 
 function exibirMensagemInicial(){
 exibirNaTela("h1" , "Joga essa POrra aí oh");
-exibirNaTela("p" , "escolhe de 1 a 20 nessa POrra aí oh");
+exibirNaTela("p" , "escolhe de 1 a 100 nessa POrra aí oh");
 }
 
 
